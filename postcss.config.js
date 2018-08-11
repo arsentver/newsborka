@@ -7,6 +7,6 @@ module.exports = {
       cascade: false
     },
     'css-mqpacker': {sort: true},
-    'postcss-csso': {restructure: false},
+    'postcss-csso': {restructure: false}
   }
 }
