@@ -11,27 +11,27 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^9.0.0",
+    "autoprefixer": "^9.1.0",
     "copy-webpack-plugin": "^4.5.2",
     "css-loader": "^1.0.0",
     "css-mqpacker": "^7.0.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "html-webpack-plugin": "^3.2.0",
-    "postcss-apply": "^0.10.0",
-    "postcss-csso": "^3.00",
-    "postcss-loader": "^2.1.6",
+    "postcss-apply": "^0.11.0",
+    "postcss-csso": "^3.0.0",
+    "postcss-loader": "^3.0.0",
     "postcss-nested": "^3.0.0",
     "raw-loader": "^0.5.1",
     "svg-spritemap-webpack-plugin": "^2.7.0",
-    "webpack": "^4.16.1",
+    "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.4"
+    "webpack-dev-server": "^3.1.5"
   },
   "dependencies": {
     "jquery": "^3.3.1",
     "normalize.css": "^8.0.0",
     "photoswipe": "^4.1.2",
     "slick-carousel": "^1.8.1",
-    "vue": "^2.5.16"
+    "vue": "^2.5.17"
   }
 }
