@@ -1,12 +1,61 @@
 html {
-  height: 100%;
-  overflow-x: hidden;
-  box-sizing: border-box;
-  font-family: "Roboto Condensed", Arial, sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    cursor: default;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 1.15;
+    word-break: break-word;
+    text-rendering: optimizeLegibility;
+    text-decoration-skip: objects;
+    -moz-tab-size: 4;
+    tab-size: 4;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
 }
 
-*, *:after, *:before {
-  box-sizing: inherit;
+*, ::before, ::after {
+    box-sizing: inherit;
+    background-repeat: no-repeat;
+}
+
+::before, ::after {
+    vertical-align: inherit;
+}
+
+::-ms-clear {
+    display: none;
+}
+
+:-webkit-autofill {
+    box-shadow: 0 0 100px #FFF inset;
+    -webkit-text-fill-color: currentColor;
+}
+
+a,
+area,
+button,
+input,
+label,
+select,
+summary,
+textarea,
+[tabindex] {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+
+[aria-disabled],
+[disabled] {
+    cursor: not-allowed;
+}
+
+[aria-hidden="false"][hidden]:not(:focus) {
+    clip: rect(0, 0, 0, 0);
+    display: inherit;
+    position: absolute;
 }
 
 * {
@@ -14,9 +63,8 @@ html {
 }
 
 body {
-  min-height: 100%;
-  position: relative;
-  -webkit-font-smoothing: antialiased;
+    min-height: 100%;
+    position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
