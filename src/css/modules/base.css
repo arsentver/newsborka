@@ -58,6 +58,12 @@ textarea,
     position: absolute;
 }
 
+textarea {
+    margin: 0;
+    overflow: auto;
+    resize: vertical;
+}
+
 * {
   /*outline: 1px solid red;*/
 }
